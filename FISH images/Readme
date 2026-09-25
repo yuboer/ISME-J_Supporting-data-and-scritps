@@ -1,1 +1,17 @@
-This folder holds FISH images collected at the two phase FA00 and FA02
+This folder contains multi-field FISH micrographs collected across the operational phases evaluated in this manuscript, illustrating the structural reorganization of the microbial community under formate co-feeding.
+
+Visualizations consist of fluorescence in situ hybridization (FISH) and phase-contrast composite overlays.
+
+Target probe fluorophores:
+- Ca. Accumulibacter: Cy5 (blue)
+- Ca. Dechloromonas: Cy3 (pink)
+- Ca. Competibacter: FITC (green)
+- Unhybridized background biomass (primarily Ca. Contendibacter): Phase-contrast (grey)
+
+Operational Phases:
+- Phase FA00: Baseline conditions (acetate as sole carbon source)
+- Phase FA02: Short-term response (3 SRTs following formate co-feeding)
+
+Extended Observation (GitHub Repository Data):
+- Phase FA_Extended (10 SRTs of formate co-feeding): Micrographs captured after prolonged operation demonstrate an almost complete transition toward a near-monoculture of Ca. Competibacter (green). 
+These extended fields provide supporting qualitative evidence that long-term formate co-feeding drives an irreversible displacement of PAOs, consolidating high-purity GAO dominance.
