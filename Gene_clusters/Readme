@@ -1,1 +1,25 @@
-In this folder is a detailed summary on all gene clusters and the detailed functional annation relevant to formate & H2 metabolism annotated in dominant PAO and GAO populations, specifically, Ca. Dechloromonas, Ca. Competibacter, Ca. Contendibacter
+# Gene Clusters & Functional Annotations
+
+This directory contains detailed functional annotations and structural gene cluster maps relevant to formate oxidation and hydrogen (H2) metabolism across dominant Polyphosphate Accumulating Organism (PAO) and Glycogen Accumulating Organism (GAO) populations.
+
+---
+
+## Directory Contents
+
+* **`Gene Cluster FHL_h2ase_PAO_GAO.txt`**: Tab-delimited summary table containing gene locus tags, protein product descriptions, EC numbers, and operon structures for formate hydrogenlyase (FHL) complexes and hydrogenase variants ($\text{H}_2\text{ase}$).
+
+---
+
+## Target Microbial Lineages
+
+Annotations are provided for enriched metagenome-assembled genomes (MAGs) belonging to:
+* ***Ca.* Dechloromonas** (Dominant PAO)
+* ***Ca.* Competibacter** (Dominant GAO)
+* ***Ca.* Contendobacter** (Co-enriched GAO)
+
+---
+
+## Key Functional Categories Covered
+
+1. **Formate Hydrogenlyase (FHL) Complexes:** Gene organization encoding formate dehydrogenase (FDH) subunits coupled with membrane-bound NiFeSe-hydrogenases.
+2. **Hydrogenase:** Subunit mapping for catalytic hydrogenase complexes responsible for anaerobic H2 recycling via NAD-reducing hydrogenase (Hox) and aerobic respiratory H2 respiration via NiFeSe hyd-2 hydrogenase.
