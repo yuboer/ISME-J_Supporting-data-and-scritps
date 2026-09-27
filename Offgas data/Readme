@@ -1,1 +1,16 @@
+FA02: ~3 SRTs after formate was provided at a molar ratio of 0.2:1 to aceate
+# Offgas Data README
 
+In this directory, we provide high-temporal-resolution online continuous offgas monitoring profiles ($\text{H}_2$, $\text{CO}_2$, $\text{O}_2$, and baseline $\text{N}_2$/$\text{Ar}$)[cite: 5]. Although online offgas monitoring was active continuously throughout the operational project, full-cycle datasets for representative EBPR cycles at each key experimental phase are provided[cite: 5]:
+
+* **FA00:** Baseline phase (acetate as sole carbon substrate)[cite: 5]
+* **FA01:** Transient phase (formate co-fed at 0.1:1 molar ratio to acetate)[cite: 5]
+* **FA02:** Shifted steady state (~3 SRTs after continuous formate co-feeding at 0.2:1 molar ratio to acetate)[cite: 5]
+
+---
+
+### Column Definitions
+
+* **Time (min):** Cumulative elapsed cycle time in minutes[cite: 4].
+* **Gas Concentrations (%):** Volumetric percentages ($\% \text{ v/v}$) for Nitrogen, Argon, Oxygen, Carbon Dioxide, Hydrogen, and Methane[cite: 4].
+* **dT:** Sampling interval ($\Delta T = \text{Time}_i - \text{Time}_{i-1}$) in minutes between consecutive gas analyzer injections ($\approx 0.75\text{--}0.87\text{ min}$)[cite: 4].
