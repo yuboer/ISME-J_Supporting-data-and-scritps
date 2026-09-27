@@ -7,3 +7,4 @@ This repository contains all bioinformatic code, raw gene annotations, metaprote
 3) **Metaproteomic PSM Data:** Complete MS/MS spectra and peptide-spectrum match (PSM) tables across technical duplicates ($n=2$) (`/Metaproteome_datasets_in_duplicates`).
 4) **Targeted Gene Locus Summaries:** Detailed gene cluster breakdowns for formate hydrogenlyase (FHL-2; *Hyf-NiFeSe Hyd4*), NAD-reducing hydrogenase (*HoxHYF*), and respiratory uptake hydrogenase (*Hyd-2*) across dominant PAO and GAO MAGs (`/Gene_clusters`).
 5) **FISH Image Archive:** Multi-field FISH visualization sets for baseline (FA00), 3-SRT co-feeding (FA02), and extended 10-SRT operations (`/FISH images`).
+6) **Offgas data:** high-temporal-resolution online continuous offgas monitoring profiles (H2, CO2, O2, and baseline N2/Ar)
