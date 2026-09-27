@@ -1,1 +1,24 @@
-To ensure complete reproducibility, all custom bioinformatic scripts anchoring the metagenomic processing and functional annotation workflows have been deposited in this folder 
+# Metagenomics Processing & Functional Annotation Workflows
+
+To ensure complete computational reproducibility, this directory contains the complete custom bioinformatic scripts and pipeline documentation used for quality control, metagenomic assembly, binning, taxonomic classification, and functional annotation.
+
+---
+
+## Directory Contents
+
+* **`Full_scripts_metagenomeics.sh`**: Executable Bash shell script containing the complete sequential pipeline commands (quality filtering, read mapping, MAG recovery, GTDB-Tk classification, Bakta/METABOLIC annotation).
+* **`Overall flow of metagenome_analysis_yuboer.docx`**: High-level workflow documentation detailing step-by-step analytical logic, parameter rationale, and software version dependencies.
+
+---
+
+## Pipeline Overview
+
+1. **Read Preprocessing & Quality Control:** Trimming low-quality bases and adapter sequences.
+2. **Metagenomic Assembly & Binning:** Metagenome-assembled genome (MAG) recovery using MetaBAT2.
+3. **Taxonomic Assignment:** Genome classification via GTDB-Tk.
+4. **Functional Annotation:** Metabolic pathway profiling (e.g., polyP, PHA/PHB synthesis, Ethylmalonyl-CoA pathway, hydrogenase complexes) via Bakta, Prodigal, and METABOLIC.
+
+---
+
+## Data Availability
+Raw paired-end sequencing reads and recovered MAGs are deposited in the NCBI Sequence Read Archive (SRA) and GenBank under BioProject PRJNA1514754.
