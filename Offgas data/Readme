@@ -13,4 +13,4 @@ Although online offgas monitoring was active continuously throughout the operati
 
 * **Time (min):** Cumulative elapsed cycle time in minutes.
 * **Gas Concentrations (%):** Volumetric percentages (%) for Nitrogen, Argon, Oxygen, Carbon Dioxide, Hydrogen, and Methane.
-* **dT:** Sampling interval (Delta T = Time (i) - Time (i-1) in minutes between consecutive gas analyzer injections (approx 0.75--0.87 min).
+* **dT:** Sampling interval. Delta T = Time (i) - Time (i-1) in minutes between consecutive gas analyzer injections (approx 0.75--0.87 min).
