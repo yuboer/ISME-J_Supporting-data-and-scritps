@@ -1,1 +1,20 @@
-In this folder are concatenated amino acid sequences of the functional genes in file "concatenated_amino_acid_sequences.zip", and the consensus multi-database annotation results in file "concatenated_function_annotation.zip"
+# Concatenated Amino Acid Sequences & Functional Annotations
+
+This directory contains compressed archives of the concatenated protein coding sequences (ORFs) and consensus functional annotations across the metagenome-assembled genomes (MAGs) analyzed in this study.
+
+---
+
+## Directory Contents
+
+* **`concatenated_amino_acid_sequences.zip`**: Compressed FASTA archive containing predicted amino acid sequences (open reading frames) for all functional genes extracted across MAGs assembled in this study
+* **`concatenated_function_annotation.zip`**: Compressed tab-delimited archive containing consensus multi-database functional annotation results (e.g., Bakta, METABOLIC, KEGG, Pfam, EC numbers).
+
+---
+
+## Usage Notes
+
+Unzip the archives using any standard compression utility or command-line tool:
+
+```bash
+unzip concatenated_amino_acid_sequences.zip
+unzip concatenated_function_annotation.zip
