@@ -1,23 +1,40 @@
-PART1:
-Technical replicates (n=2) for overall metaproteome datasets generated throughout the three phases of the project:
+# Metaproteome Datasets in Technical Duplicates
 
-----Phase FA00, only acetate supplied as substrate
-Data files: FA00_01.txt, FA00_02.txt
+This directory contains shotgun LC-MS/MS metaproteomic spectral count datasets (technical duplicates, $n = 2$) corresponding to the experimental phases and dominant PAO/GAO populations reported in the manuscript.
 
-----Phase FA01, Transient phase, Formate was supplied as co-substrate in a molar ratio of Formate : Acetate = 0.1 : 1 (mol:mol)
-Data files: FA01_01.txt, FA01_02.txt
+---
 
-----Phase FA02, Formate was supplied as co-substrate in a molar ratio of Formate : Acetate = 0.2 : 1 (mol:mol)
-Data files: FA02_01.txt, FA02_02.txt
+## Part 1: Whole-Community Metaproteome Datasets
 
-PART2:
-Technical replicates (n=2) for specific PAO & GAO populations when they were dominant in the consortium
+Shotgun metaproteome profile matrices across the three operational reactor phases:
 
-----The expression activity of genes in terms of "peptide spectra number" in Ca. Contendibacter enriched in this study, when it was dominant in the system during phase FA00
-Data location: in the foler <Contendibacter_proteome>
+| Experimental Phase | Operational Conditions | Molar Ratio (Formate : Acetate) | Data Files |
+| :--- | :--- | :--- | :--- |
+| **Phase FA00** | Baseline EBPR (Acetate sole carbon source) | 0 : 1 | `FA00_01.txt`, `FA00_02.txt` |
+| **Phase FA01** | Transient co-feeding phase | 0.1 : 1 | `FA01_01.txt`, `FA01_02.txt` |
+| **Phase FA02** | Pseudo-steady state co-feeding phase | 0.2 : 1 | `FA02_01.txt`, `FA02_02.txt` |
 
-----The expression activity of genes in terms of "peptide spectra number" in Ca. Dechloromonas enriched in this study, when it was dominant in the system during phase FA01
-Data location: in the foler <Dechloromonas_proteome>
+---
 
-----The expression activity of genes in terms of "peptide spectra number" in Competibacter MAG1 enriched in this study, when it was dominant in the system during phase FA02
-Data location: in the foler <Competibacter MAG1_proteome>
+## Part 2: Target Sub-Community & Organism-Specific Proteomes
+
+Quantified gene expression profiles (expressed as mapped peptide spectral counts) for dominant polyphosphate-accumulating organisms (PAOs) and glycogen-accumulating organisms (GAOs) extracted during their respective peak dominance:
+
+### 1. *Ca.* Contendobacter Proteome
+* **Description:** Relative expression profile of *Ca.* Contendobacter when dominant during baseline **Phase FA00**.
+* **Directory Location:** `./Contendibacter_proteome/`
+
+### 2. *Ca.* Dechloromonas Proteome
+* **Description:** Relative expression profile of *Ca.* Dechloromonas when enriched during transient **Phase FA01**.
+* **Directory Location:** `./Dechloromonas_proteome/`
+
+### 3. *Ca.* Competibacter MAG1 Proteome
+* **Description:** Relative expression profile of *Ca.* Competibacter MAG1 when dominant during **Phase FA02**.
+* **Directory Location:** `./Competibacter MAG1_proteome/`
+
+---
+
+## Data Format & Quantification Notes
+* **Quantification Unit:** Mapped peptide spectral counts.
+* **Extraction Protocol:** Soluble protein fraction extracted via TEAB / 1% sodium deoxycholate / B-PER disruption followed by trypsin digestion.
+* **Database Search:** Spectra searched against predicted open reading frames (ORFs) from recovered high-quality Metagenome-Assembled Genomes (MAGs).
